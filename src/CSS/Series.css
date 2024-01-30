@@ -1,0 +1,37 @@
+.title2{
+    color: white; 
+    display: flex; 
+    font-size: 20px;
+    padding-left: 10px;
+    z-index: 99;
+    position: absolute;
+    margin-bottom: 30px;
+    
+}
+
+.title2 p{
+    padding-bottom: 30px;
+}
+
+.di2{
+    width: 160px;
+    height: 200px;
+    transform: scale(0.9);
+    transition: all ease 0.5s;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.di2:hover{
+    transform: scale(1);
+}
+
+
+.di3{
+    width: 160px;
+    height: 200px;
+    transform: scale(0.9);
+    transition: all ease 0.5s;
+    cursor: pointer;
+    margin-top: 20px;
+}

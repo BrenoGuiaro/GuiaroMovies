@@ -1,0 +1,51 @@
+*{
+    color: white;
+}
+.box{
+    border: 2px solid black ; 
+    width: 1000px;
+    height: 360px; 
+    display: flex ;
+    background: black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px 0px 0px 50px;
+}
+
+.infor{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    width: 733px;
+    height: 100px;
+}
+
+.inf1,
+.inf2{
+    width: 366.5px;
+}
+
+.p{
+    padding-bottom:10px ;
+    display: flex;
+}
+
+.tiName{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.Tinf{
+    padding-left:140px ;
+}
+
+.imgD{
+    width: 250px;
+    height: 300px;
+    padding-left: 150px;
+}
+
+.d{
+    text-align: left
+}

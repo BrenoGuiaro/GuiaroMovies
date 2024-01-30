@@ -1,0 +1,10 @@
+.button{
+    background: grey;
+    width: 90px;
+    max-width: 100px;
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: 'center'
+}

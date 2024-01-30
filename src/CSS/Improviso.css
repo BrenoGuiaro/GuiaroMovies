@@ -1,0 +1,9 @@
+.banner {
+    background-image: url('https://lh3.googleusercontent.com/pw/ABLVV849OTWjnevRrw7f3O6cP_0JnHF8CkeMA47QZlq6dWfWMx0RTenrdSNbA-IqO4-IpO1b1vjb-BUTk_qvDm685CPIxIw4aWh0FwITsVNdvdjAfWwYQcRJA12pzm6k0qA7mqsMqdC3GsEr-lvnQrDwHQk=w869-h430-s-no-gm?authuser=0');
+    width: 1260px;
+    height: 430px;
+    background-size: cover;
+    background-position: 0%;
+    margin-left: 20px;
+    border-radius: 10px;
+}
