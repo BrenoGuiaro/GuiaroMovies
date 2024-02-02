@@ -4,13 +4,13 @@
 .box{
     border: 2px solid black ; 
     width: 1000px;
-    height: 360px; 
+    height: 56.5vh; 
     display: flex ;
     background: black;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 0px 0px 0px 50px;
+    padding: 0px 0px 0px 7vw;
 }
 
 .infor{

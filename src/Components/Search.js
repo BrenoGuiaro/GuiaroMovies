@@ -31,7 +31,7 @@ export const Search = ({ movies, series }) => {
         <>
             <div>
                 <input type='search' className='search' placeholder='Pesquisar...' value={text} onChange={handleText} />
-                {text && <div style={{ backgroundColor: 'white', color: 'black' , overflowY: 'hidden', height: '300px',overflow:'auto',width: '400px',  }}>
+                {text && <div style={{ backgroundColor: 'white', color: 'black' , overflowY: 'hidden', height: 'auto',maxHeight: '300px',overflow:'auto',width: '400px',  }}>
                     {filtered.map((item) => {
                         return (<>
 
