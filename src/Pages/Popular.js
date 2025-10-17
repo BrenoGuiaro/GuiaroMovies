@@ -47,7 +47,7 @@ export const Popular = ({ movies }) => {
                         <>
 
                             <div className='di'>
-                                <Link to={`movie/${movie.id}`} key={movie.id} >
+                                <Link to={`/movie/${movie.id}`} key={movie.id} >
                                     <img src={`https://image.tmdb.org/t/p/w200${movie.poster_path}`} style={{ height: '100%' }} alt='' />
                                 </Link>
                             </div>

@@ -43,7 +43,7 @@ export const EmBreve = ({ emBreve }) => {
                     <>
 
                         <div className='di'>
-                            <Link to={`/${embreve.id}`} key={embreve.id} >
+                            <Link to={`/embreve/movie/${embreve.id}`} key={embreve.id} >
                                 <img src={`https://image.tmdb.org/t/p/w200${embreve.poster_path}`} style={{ height: '100%' }} alt='' />
                             </Link>
                         </div>

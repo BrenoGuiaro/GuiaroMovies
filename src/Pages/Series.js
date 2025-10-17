@@ -43,7 +43,7 @@ export const Series = ({ series }) => {
         {series?.map((serie) => (
           <>
             <div className='di'>
-              <Link to={`serie/${serie.id}`} key={serie.id} >
+              <Link to={`/serie/${serie.id}`} key={serie.id} >
                 <img src={`https://image.tmdb.org/t/p/w200${serie.poster_path}`} style={{ height: '100%' }} alt='' />
               </Link>
             </div>

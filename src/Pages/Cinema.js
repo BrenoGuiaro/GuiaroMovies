@@ -42,7 +42,7 @@ export const Cinema = ({ cinema }) => {
                     <>
 
                         <div className='di'>
-                            <Link to={`/${cinema.id}`} key={cinema.id}>
+                            <Link to={`/cinema/movie/${cinema.id}`} key={cinema.id}>
                                 <img src={`https://image.tmdb.org/t/p/w200${cinema.poster_path}`} style={{ height: '100%' }} alt='' />
                             </Link>
                         </div>
